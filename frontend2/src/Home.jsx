@@ -21,7 +21,7 @@ const[filmes,setFilmes] = useState([])
 const getFilmes = async() => {
 
   try{
-    const res = await axios.get("http://localhost:8800/filmes");
+    const res = await axios.get("http://https://frontendtest-teal.vercel.app/filmes");
     setFilmes(res.data.sort((a,b) => (a.titulo > b.nome ? 1:-1)));
   } catch (error){
     toast.error(error);
@@ -36,7 +36,7 @@ const[livros,setLivros] = useState([])
 const getLivros = async() => {
 
   try{
-    const res = await axios.get("http://localhost:8800/livros");
+    const res = await axios.get("http://https://frontendtest-teal.vercel.app/livros");
     setLivros(res.data.sort((a,b) => (a.titulo > b.nome ? 1:-1)));
   } catch (error){
     toast.error(error);
@@ -52,7 +52,7 @@ const[series,setSeries] = useState([])
 
 const getSeries = async() => {
   try{
-    const res = await axios.get("http://localhost:8800/series");
+    const res = await axios.get("http://https://frontendtest-teal.vercel.app/series");
     setSeries(res.data.sort((a,b) => (a.titulo > b.nome ? 1:-1)));
   } catch (error){
     toast.error(error);
