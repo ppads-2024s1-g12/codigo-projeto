@@ -28,7 +28,7 @@ function Series() {
   const getSeries = async() => {
 
     try{
-      const res = await axios.get("http://localhost:8800/series");
+      const res = await axios.get("http://apitomaz.vercel.app/series");
       setSeries(res.data.sort((a,b) => (a.titulo > b.nome ? 1:-1)));
     } catch (error){
       toast.error(error);

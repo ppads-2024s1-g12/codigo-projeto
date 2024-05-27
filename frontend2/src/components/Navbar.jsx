@@ -109,7 +109,7 @@ function ResponsiveAppBar() {
             {pages.map((page) => (
               <Button
               //MUDAR AQ
-                component={Link} to={'https://frontendtest-teal.vercel.app/livros'}
+                component={Link} to={'https://frontendtest-teal.vercel.app/filmes'}
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
