@@ -79,7 +79,7 @@ function ResponsiveAppBar() {
 
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography component={Link} to={'http://https://frontendtest-teal.vercel.app/livros'} textAlign="center">{page}</Typography>
+                  <Typography component={Link} to={'https://frontendtest-teal.vercel.app/livros'} textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -109,7 +109,7 @@ function ResponsiveAppBar() {
             {pages.map((page) => (
               <Button
               //MUDAR AQ
-                component={Link} to={'http://https://frontendtest-teal.vercel.app/livros'}
+                component={Link} to={'https://frontendtest-teal.vercel.app/livros'}
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
