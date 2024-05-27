@@ -1,0 +1,9 @@
+{"orgId":"team_wKZbfNF06zpmq9qqMXuB1dvJ",
+"projectId":"prj_AnaMfqjvkYXrgFL9bvIIKVH3Lu8q",
+"routes":[
+    {
+        "src":"../.*",
+        "dest":"../index.js"
+    }
+]
+}
