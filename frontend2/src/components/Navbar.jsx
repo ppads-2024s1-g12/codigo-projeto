@@ -44,7 +44,7 @@ function ResponsiveAppBar() {
     <AppBar sx={{background: "#54141d"}} position="static">
       <Container background-color="#54141d" maxWidth="xl">
         <Toolbar disableGutters>
-        <a href="https://thomasfrontend.vercel.app">
+        <a href="https://frontendtest-teal.vercel.app">
         <img className='logo' src={r2d2} alt=""  />
         </a>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -79,7 +79,7 @@ function ResponsiveAppBar() {
 
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography component={Link} to={'https://frontendtest-teal.vercel.app/livros'} textAlign="center">{page}</Typography>
+                  <Typography component={Link} to={'https://frontendtest-teal.vercel.app/filmes'} textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
