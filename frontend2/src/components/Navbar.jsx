@@ -44,7 +44,7 @@ function ResponsiveAppBar() {
     <AppBar sx={{background: "#54141d"}} position="static">
       <Container background-color="#54141d" maxWidth="xl">
         <Toolbar disableGutters>
-        <a href="http://localhost:3000">
+        <a href="https://thomasfrontend.vercel.app">
         <img className='logo' src={r2d2} alt=""  />
         </a>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
