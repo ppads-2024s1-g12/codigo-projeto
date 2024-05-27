@@ -14,6 +14,7 @@ app.use("/", filmeRoutes )
 app.use("/", LivroRoutes )
 app.use("/", SerieRoutes)
 app.use("/", AvaliacoesRoutes)
+console.log("socorr")
 
 app.post('/login', (req,res)=> {
 
