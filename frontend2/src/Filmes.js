@@ -30,7 +30,7 @@ function Filmes() {
   const getFilmes = async() => {
 
     try{
-      const res = await axios.get("http://localhost:8800/filmes");
+      const res = await axios.get("https://api-nc3oa0wpf-pivas-projects.vercel.app/filmes");
       setFilmes(res.data.sort((a,b) => (a.titulo > b.nome ? 1:-1)));
     } catch (error){
       toast.error(error);
